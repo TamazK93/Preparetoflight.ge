@@ -82,6 +82,46 @@ a {
   font-style: normal;
   font-display: swap; }
 
+@media (max-width: 680px) {
+  .img-book-1 {
+    margin-top: 10px; }
+  .nav {
+    background: rgba(165, 29, 165, 0.349); }
+  .ul-nav-list {
+    display: none; }
+  .container-1 {
+    display: flex;
+    flex-wrap: wrap; }
+  .mobile-content-hidden {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center; }
+  .header {
+    margin-top: 0px; }
+  .span-stick {
+    width: 100%;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.92);
+    color: rgba(0, 0, 0, 0.92);
+    width: 25px;
+    height: 2px;
+    margin: 2px 2px; }
+  .mobile-logo-wrapper {
+    width: 25px;
+    height: 25px;
+    background-size: 25px 25px;
+    display: block; }
+  .mobile-logo img {
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin-top: 0px;
+    background-image: url(..//..//images/logo.png); } }
+
+.mobile-content-hidden {
+  display: none; }
+
 .nav {
   top: calc(0px + var(--global-nav-ad-bar-height));
   position: fixed;
@@ -89,7 +129,6 @@ a {
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
   width: 100%;
-  height: 48px;
   max-height: 48px;
   user-select: none;
   font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
@@ -114,15 +153,7 @@ a {
 .link-logo-img {
   cursor: default;
   margin: 0 -10px;
-  width: auto;
   height: 44px;
-  display: flex;
-  -webkit-box-pack: justify;
-  justify-content: space-around;
-  box-sizing: content-box;
-  padding: 0;
-  pointer-events: auto;
-  letter-spacing: normal;
   margin-block-start: -15px;
   margin-block-end: 1em;
   margin-inline-start: -50px;
@@ -243,25 +274,11 @@ p {
   align-items: center;
   font-family: Inconsolata CondensedExtraLight; }
 
-@media (max-width: 100%) {
-  .mobile-content-hidden {
-    display: none; }
-  .span-stick {
-    display: none; }
-  .header {
-    display: none;
-    margin-top: 20px; }
-  .menuicon {
-    display: none; }
-  .mobile-logo {
-    display: none; } }
-
 @media (max-width: 680px) {
   .img-book-1 {
-    margin-top: 20px; }
-  .nav
-.container {
-    background: rgba(184, 171, 184, 0.658); }
+    margin-top: 10px; }
+  .nav {
+    background: rgba(165, 29, 165, 0.349); }
   .ul-nav-list {
     display: none; }
   .container-1 {
@@ -270,16 +287,26 @@ p {
   .mobile-content-hidden {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between; }
+    justify-content: space-between;
+    align-items: center; }
   .header {
-    margin-top: 10px; }
+    margin-top: 0px; }
   .span-stick {
+    width: 100%;
     display: block;
     background-color: rgba(0, 0, 0, 0.92);
     color: rgba(0, 0, 0, 0.92);
     width: 25px;
     height: 2px;
     margin: 2px 2px; }
-  .mobile-logo {
+  .mobile-logo-wrapper {
+    width: 25px;
+    height: 25px;
+    background-size: 25px 25px;
+    display: block; }
+  .mobile-logo img {
+    width: 25px;
+    height: 25px;
     display: block;
+    margin-top: 0px;
     background-image: url(..//..//images/logo.png); } }

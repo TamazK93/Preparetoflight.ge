@@ -1,6 +1,12 @@
 @import '../modules/variable.scss';
 @import '../modules/classes.scss';
 @import '../basic/fonts.scss';
+@import '../main/media.scss';
+
+
+.mobile-content-hidden {
+    display: none;
+}
 
 
 .nav {
@@ -18,7 +24,7 @@
         // margin-bottom: 0;
         width: 100%;
         // min-width: 1024px;
-        height: 48px;
+        // height: 48px;
         max-height: 48px;
         // background: rgba(0,0,0,0.92);-apple.com color
         // font-size: 18px;
@@ -71,50 +77,15 @@
 .link-logo-img {
     cursor: default;
     margin: 0 -10px;
-    width: auto;
-    height: 44px;
-    display: flex;
-    -webkit-box-pack: justify;
-    justify-content: space-around;
-
     
-
-
-    box-sizing: content-box;
-    padding: 0;
-    pointer-events: auto;
-    letter-spacing: normal;
-
+    height: 44px;
+    
     margin-block-start: -15px;
     margin-block-end: 1em;
     margin-inline-start: -50px;
     margin-inline-end: 0px;
     padding-inline-start: 0px;
 }
-
-// .li-items .logo {
-//     box-sizing: border-box;
-//     display: inline-block;
-//     position: relative;
-//     height: 44px;
-//     z-index: 1;
-//     vertical-align: top;
-
-
-//     margin: 0;
-//     padding: 0;
-//     pointer-events: auto;
-//     letter-spacing: normal;
-
-//     cursor: default;
-//     margin: 0 -10px;
-//     width: auto;
-//     height: 44px;
-//     display: flex;
-//     -webkit-box-pack: justify;
-//     user-select: none;
-
-// }
 
 .a-nav  {
     color: #f5f5f7;
