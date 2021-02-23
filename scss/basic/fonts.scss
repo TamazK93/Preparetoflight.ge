@@ -1,0 +1,24 @@
+
+
+
+@font-face {
+    font-family: 'ALK Rex Bold';
+    src: url('../fonts/alk/alk-rex-bold-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/alk/alk-rex-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/alk/alk-rex-bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/alk/alk-rex-bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/alk/alk-rex-bold-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/alk/alk-rex-bold-webfont.svg#alk_rexbold') format('svg'); /* Legacy iOS */
+}        
+
+@font-face {
+    font-family: 'Inconsolata CondensedExtraLight';
+    src: url('../fonts/Inconsolata-CondensedExtraLight.eot');
+    src: url('../fonts/Inconsolata-CondensedExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inconsolata-CondensedExtraLight.woff2') format('woff2'),
+        url('../fonts/Inconsolata-CondensedExtraLight.woff') format('woff'),
+        url('../fonts/Inconsolata-CondensedExtraLight.svg#Inconsolata-CondensedExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}

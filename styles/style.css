@@ -37,23 +37,249 @@ a {
 * {
   box-sizing: border-box; }
 
-.container1 {
-  position: fixed;
-  width: 100%; }
+@font-face {
+  font-family: 'ALK Rex Bold';
+  src: url("../fonts/alk/alk-rex-bold-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/alk/alk-rex-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/alk/alk-rex-bold-webfont.woff2") format("woff2"), url("../fonts/alk/alk-rex-bold-webfont.woff") format("woff"), url("../fonts/alk/alk-rex-bold-webfont.ttf") format("truetype"), url("../fonts/alk/alk-rex-bold-webfont.svg#alk_rexbold") format("svg");
+  /* Legacy iOS */ }
 
-.logo {
-  width: 100px;
-  float: left; }
+@font-face {
+  font-family: 'Inconsolata CondensedExtraLight';
+  src: url("../fonts/Inconsolata-CondensedExtraLight.eot");
+  src: url("../fonts/Inconsolata-CondensedExtraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/Inconsolata-CondensedExtraLight.woff2") format("woff2"), url("../fonts/Inconsolata-CondensedExtraLight.woff") format("woff"), url("../fonts/Inconsolata-CondensedExtraLight.svg#Inconsolata-CondensedExtraLight") format("svg");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'ALK Rex Bold';
+  src: url("../fonts/alk/alk-rex-bold-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/alk/alk-rex-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/alk/alk-rex-bold-webfont.woff2") format("woff2"), url("../fonts/alk/alk-rex-bold-webfont.woff") format("woff"), url("../fonts/alk/alk-rex-bold-webfont.ttf") format("truetype"), url("../fonts/alk/alk-rex-bold-webfont.svg#alk_rexbold") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
+  font-family: 'Inconsolata CondensedExtraLight';
+  src: url("../fonts/Inconsolata-CondensedExtraLight.eot");
+  src: url("../fonts/Inconsolata-CondensedExtraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/Inconsolata-CondensedExtraLight.woff2") format("woff2"), url("../fonts/Inconsolata-CondensedExtraLight.woff") format("woff"), url("../fonts/Inconsolata-CondensedExtraLight.svg#Inconsolata-CondensedExtraLight") format("svg");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'ALK Rex Bold';
+  src: url("../fonts/alk/alk-rex-bold-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/alk/alk-rex-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/alk/alk-rex-bold-webfont.woff2") format("woff2"), url("../fonts/alk/alk-rex-bold-webfont.woff") format("woff"), url("../fonts/alk/alk-rex-bold-webfont.ttf") format("truetype"), url("../fonts/alk/alk-rex-bold-webfont.svg#alk_rexbold") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
+  font-family: 'Inconsolata CondensedExtraLight';
+  src: url("../fonts/Inconsolata-CondensedExtraLight.eot");
+  src: url("../fonts/Inconsolata-CondensedExtraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/Inconsolata-CondensedExtraLight.woff2") format("woff2"), url("../fonts/Inconsolata-CondensedExtraLight.woff") format("woff"), url("../fonts/Inconsolata-CondensedExtraLight.svg#Inconsolata-CondensedExtraLight") format("svg");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap; }
 
 .nav {
-  background-color: purple;
-  padding: 10px; }
+  top: calc(0px + var(--global-nav-ad-bar-height));
+  position: fixed;
+  background: rgba(172, 6, 163, 0.8);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  width: 100%;
+  height: 48px;
+  max-height: 48px;
+  user-select: none;
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: 100%; }
 
-.ul-nav {
-  font-size: 24px;
+.ul-nav-list {
+  cursor: default;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
+  user-select: none;
+  box-sizing: content-box;
+  padding: 0;
+  pointer-events: auto;
+  letter-spacing: normal;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px; }
+
+.link-logo-img {
+  cursor: default;
+  margin: 0 -10px;
+  width: auto;
+  height: 44px;
+  display: flex;
+  -webkit-box-pack: justify;
   justify-content: space-around;
+  box-sizing: content-box;
+  padding: 0;
+  pointer-events: auto;
+  letter-spacing: normal;
+  margin-block-start: -15px;
+  margin-block-end: 1em;
+  margin-inline-start: -50px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px; }
+
+.a-nav {
+  color: #f5f5f7;
+  padding-right: 18px;
+  background-size: 32px 44px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: -.01em;
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  height: 44px;
+  opacity: .8;
+  background: no-repeat;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  outline-offset: -7px; }
+
+.img-book-wrapper-1 {
+  width: 100%;
+  height: 880px;
+  background-size: 100% 880px;
+  display: flex;
+  justify-content: space-around;
+  background-color: white; }
+
+.img-book-1 {
+  width: 80%;
+  height: 100%;
+  background-size: 80%;
+  display: flex;
   align-items: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: white; }
+  background-repeat: no-repeat;
+  background-image: url(..//../images/book-and-pen.png); }
+
+.img-book-wrapper-2 {
+  width: 100%;
+  height: 880px;
+  background-size: 100% 880px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #eec6ec; }
+
+.img-book-2 {
+  width: 50%;
+  height: 880px;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-image: url(..//../images/University-PNG-Image-HD.png); }
+
+.img-book-wrapper-3 {
+  width: 100%;
+  height: 880px;
+  background-size: 100% 880px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #cae3f8; }
+
+.img-book-3 {
+  width: 80%;
+  height: 880px;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-image: url(..//../images/cessna.png); }
+
+.section-2 {
+  width: 100%;
+  height: 100%; }
+
+.container-1 {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.box1 {
+  width: 1340px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 10px; }
+
+.img-book-4 {
+  height: 580px;
+  background-color: #eec6ec; }
+
+h2 {
+  font-size: 24px;
+  font-weight: 800;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  font-family: ALK Rex Bold; }
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  font-family: Inconsolata CondensedExtraLight; }
+
+@media (max-width: 100%) {
+  .mobile-content-hidden {
+    display: none; }
+  .span-stick {
+    display: none; }
+  .header {
+    display: none;
+    margin-top: 20px; }
+  .menuicon {
+    display: none; }
+  .mobile-logo {
+    display: none; } }
+
+@media (max-width: 680px) {
+  .img-book-1 {
+    margin-top: 20px; }
+  .nav
+.container {
+    background: rgba(184, 171, 184, 0.658); }
+  .ul-nav-list {
+    display: none; }
+  .container-1 {
+    display: flex;
+    flex-wrap: wrap; }
+  .mobile-content-hidden {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between; }
+  .header {
+    margin-top: 10px; }
+  .span-stick {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.92);
+    color: rgba(0, 0, 0, 0.92);
+    width: 25px;
+    height: 2px;
+    margin: 2px 2px; }
+  .mobile-logo {
+    display: block;
+    background-image: url(..//..//images/logo.png); } }

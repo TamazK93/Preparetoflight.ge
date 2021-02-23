@@ -1,0 +1,25 @@
+@import '../modules/variable.scss';
+@import '../basic/fonts.scss';
+
+@mixin  background ($bg-size, $bg-repeat, $bg-position, $bg-margin) {
+    background-size: $bg-size;
+    background-repeat: $bg-repeat;
+    background-position: $bg-position;
+    margin: $bg-margin;
+}
+// @mixin img-book-4 (){
+    
+// }
+
+@mixin text-prop ($font-size, $font-weight) {
+    font-size:$font-size;
+    font-weight: $font-weight;
+}
+
+@mixin flex-prop ($flex, $no-next-row, $horizontal, $vertical){
+    display: $flex;
+    flex-wrap: $no-next-row;
+    justify-content: $horizontal;
+    align-items: $vertical;
+    
+}

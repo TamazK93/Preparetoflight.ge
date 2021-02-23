@@ -1,23 +1,254 @@
-.container1 {
-    position: fixed;
-    width: 100%;
+@import '../modules/variable.scss';
+@import '../modules/classes.scss';
+@import '../basic/fonts.scss';
 
-}
-.logo {
-    width: 100px;
-    float: left;
-}
+
 .nav {
-    background-color: purple;
-    padding: 10px;
-}
-.ul-nav {
-    font-size: 24px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
+        top: calc(0px + var(--global-nav-ad-bar-height));
+        position: fixed;
+        background: $color-01;
+        -webkit-backdrop-filter: saturate(180%) blur(20px);
+        backdrop-filter: saturate(180%) blur(20px);
+        // position: absolute;
+        // top: 0;
+        // right: 0;
+        // left: 0;
+        // z-index: 9999;
+        // display: block;
+        // margin-bottom: 0;
+        width: 100%;
+        // min-width: 1024px;
+        height: 48px;
+        max-height: 48px;
+        // background: rgba(0,0,0,0.92);-apple.com color
+        // font-size: 18px;
+        user-select: none;
+        font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        // font-synthesis: none;
+    
+    -webkit-font-smoothing: antialiased;
+    
+    // direction: ltr;
+    // text-align: left;
+
+    
+    // box-sizing: content-box;
+    // pointer-events: auto;
+    // letter-spacing: normal;
+
+    // font-weight: normal;
+    // -webkit-text-size-adjust: 100%;
+    // -moz-text-size-adjust: 100%;
+    // -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 
+
+.ul-nav-list{
+    cursor: default;
+    // margin: 0 -0px;
+    // width: auto;
+    // height: 48px;
+    display: flex;
+    // -webkit-box-pack: justify;
+    justify-content: center;
+    user-select: none;
+
+
+
+    box-sizing: content-box;
+    padding: 0;
+    pointer-events: auto;
+    letter-spacing: normal;
+
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.link-logo-img {
+    cursor: default;
+    margin: 0 -10px;
+    width: auto;
+    height: 44px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-around;
+
+    
+
+
+    box-sizing: content-box;
+    padding: 0;
+    pointer-events: auto;
+    letter-spacing: normal;
+
+    margin-block-start: -15px;
+    margin-block-end: 1em;
+    margin-inline-start: -50px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+// .li-items .logo {
+//     box-sizing: border-box;
+//     display: inline-block;
+//     position: relative;
+//     height: 44px;
+//     z-index: 1;
+//     vertical-align: top;
+
+
+//     margin: 0;
+//     padding: 0;
+//     pointer-events: auto;
+//     letter-spacing: normal;
+
+//     cursor: default;
+//     margin: 0 -10px;
+//     width: auto;
+//     height: 44px;
+//     display: flex;
+//     -webkit-box-pack: justify;
+//     user-select: none;
+
+// }
+
+.a-nav  {
+    color: #f5f5f7;
+    padding-right: 18px;
+
+    background-size: 32px 44px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    
+    height: 44px;
+    opacity: .8;
+    background: no-repeat;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    outline-offset: -7px;
+}
+// mobile
+
+
+
+
+
+// my turn
+
+.img-book-wrapper-1{
+    width: 100%;
+    height: 880px;
+    background-size: 100% 880px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.img-book-1 {
+    width: 80%;
+    height: 100%;
+    background-size: 80%;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-image: url(..//../images/book-and-pen.png);
+    
+}
+
+.img-book-wrapper-2{
+    width: 100%;
+    height: 880px;
+    background-size: 100% 880px;
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(238, 198, 236);
+   
+}
+.img-book-2 {
+    width: 50%;
+    height: 880px;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-image: url(..//../images/University-PNG-Image-HD.png);
+    // background-color:white;
+
+}
+
+.img-book-wrapper-3{
+    width: 100%;
+    height: 880px;
+    background-size: 100% 880px;
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(202, 227, 248);
+    
+}
+.img-book-3 {
+    width: 80%;
+    height: 880px;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-image: url(..//../images/cessna.png);
+}
+
+.section-2 {
+    width: 100%;
+    height: 100%;
+}
+
+.container-1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center
+
+    
+}
+
+.box1 {
+    width: 1340px;
+    @include background(cover,no-repeat,center,10px);
+    }
+
+
+
+.img-book-4 {
+    height: 580px;
+    background-color: $color-02;
+    
+}
+
+h2 { @include text-prop (24px, 800);
+    @include flex-prop (flex, nowrap, center,center );
+    font-family: ALK Rex Bold;
+}
+
+p {
+    @include text-prop (18px, 400);
+    @include flex-prop (flex, nowrap, center,center );
+    font-family: Inconsolata CondensedExtraLight;
+    
+}
