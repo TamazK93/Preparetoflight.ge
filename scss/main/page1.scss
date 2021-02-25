@@ -123,10 +123,10 @@
 
 // my turn
 
+
 .img-book-wrapper-1{
     width: 100%;
     height: 880px;
-    background-size: 100% 880px;
     display: flex;
     justify-content: space-around;
     background-color: rgb(255, 255, 255);
@@ -134,12 +134,13 @@
 }
 
 .img-book-1 {
-    width: 80%;
+    width: 1920px;
     height: 100%;
-    background-size: 80%;
+    background-size:contain;
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
+    background-position: center;
     background-image: url(..//../images/book-and-pen.png);
     
 }
@@ -147,19 +148,19 @@
 .img-book-wrapper-2{
     width: 100%;
     height: 880px;
-    background-size: 100% 880px;
     display: flex;
     justify-content: space-around;
     background-color:rgb(238, 198, 236);
    
 }
 .img-book-2 {
-    width: 50%;
-    height: 880px;
-    background-size: 100%;
+    width: 1920px;
+    height: 100%;
+    background-size:contain;
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
+    background-position: center;
     background-image: url(..//../images/University-PNG-Image-HD.png);
     // background-color:white;
 
@@ -168,19 +169,19 @@
 .img-book-wrapper-3{
     width: 100%;
     height: 880px;
-    background-size: 100% 880px;
     display: flex;
     justify-content: space-around;
     background-color:rgb(202, 227, 248);
     
 }
 .img-book-3 {
-    width: 80%;
-    height: 880px;
-    background-size: 100%;
+    width: 1920px;
+    height: 100%;
+    background-size:contain;
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
+    background-position: center;
     background-image: url(..//../images/cessna.png);
 }
 
@@ -208,7 +209,7 @@
 
 .img-book-4 {
     height: 580px;
-    background-color: $color-02;
+    background-color: $color-04;
     
 }
 

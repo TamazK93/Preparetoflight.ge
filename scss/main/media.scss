@@ -1,7 +1,7 @@
 
 
-@media (max-width: 680px) {
-    .img-book-1 {margin-top: 10px;}
+@media (max-width: 768px) {
+    
     .nav {
         background : rgba(165, 29, 165, 0.349);
     }
@@ -46,5 +46,20 @@
                 display: block;
                 margin-top: 0px;
                 background-image: url(..//..//images/logo.png);
+            }
+            .img-book-wrapper-1 {
+                height: 400px;
+            }
+            .img-book-wrapper-2 {
+                height: 400px;
+            }
+            .img-book-wrapper-3 {
+                height: 400px;
+            }
+            .img-book-1 {
+                margin-top: 10px;
+            }
+            .img-book-4 {
+                height: 378px;
             }
         }
