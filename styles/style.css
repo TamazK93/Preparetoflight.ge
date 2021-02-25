@@ -102,7 +102,7 @@ a {
   .menu-btn_burger {
     width: 50px;
     height: 5px;
-    background: #fff;
+    background: rgba(0, 0, 0, 0.92);
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(165, 29, 165, 0.349);
     transition: all .5s ease-in-out; }
@@ -112,7 +112,7 @@ a {
     position: absolute;
     width: 50px;
     height: 5px;
-    background: #fff;
+    background: rgba(0, 0, 0, 0.92);
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(165, 29, 165, 0.349);
     transition: all .5s ease-in-out; }
@@ -341,7 +341,7 @@ p {
   .menu-btn_burger {
     width: 50px;
     height: 5px;
-    background: #fff;
+    background: rgba(0, 0, 0, 0.92);
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(165, 29, 165, 0.349);
     transition: all .5s ease-in-out; }
@@ -351,7 +351,7 @@ p {
     position: absolute;
     width: 50px;
     height: 5px;
-    background: #fff;
+    background: rgba(0, 0, 0, 0.92);
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(165, 29, 165, 0.349);
     transition: all .5s ease-in-out; }

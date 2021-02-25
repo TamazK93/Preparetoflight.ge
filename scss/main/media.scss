@@ -32,7 +32,7 @@
     .menu-btn_burger {
         width: 50px;
         height: 5px;
-        background: #fff;
+        background: $color-03;
         border-radius: 5px;
         box-shadow: 0 2px 5px rgba(165, 29, 165, 0.349);
         transition: all .5s ease-in-out;
@@ -43,7 +43,7 @@
         position: absolute;
         width: 50px;
         height: 5px;
-        background: #fff;
+        background:$color-03;
         border-radius: 5px;
         box-shadow: 0 2px 5px rgba(165, 29, 165, 0.349);
         transition: all .5s ease-in-out;
