@@ -104,13 +104,16 @@
             height: 25px;
                 display: block;
                 margin-top: 0px;
+                
                 background-image: url(..//..//images/logo.png);
             }
             .img-book-wrapper-1 {
                 height: 400px;
+                
             }
             .img-book-wrapper-2 {
                 height: 400px;
+                
             }
             .img-book-wrapper-3 {
                 height: 400px;
@@ -120,5 +123,12 @@
             }
             .img-book-4 {
                 height: 378px;
+            }
+            .text-1 {
+                @include text-prop (12px, 400);
+                @include flex-prop (flex, nowrap, center,center );
+                font-family: BPG Glaho WEB Caps;
+                margin-top: -30%;
+                margin-left: 50%;
             }
         }

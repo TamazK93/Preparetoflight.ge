@@ -145,6 +145,25 @@
     
 }
 
+.text-1 {
+    @include text-prop (24px, 800);
+    @include flex-prop (flex, nowrap, center,center );
+    font-family: BPG Mrgvlovani;
+    margin-top: -30%;
+    margin-left: 50%;
+    color: $color-03;
+    
+}
+.text-1 a {
+    color: black;
+}
+
+.text-1 a:hover {
+    color: chartreuse;
+    text-shadow: chartreuse;
+    transition: 02s;
+}
+
 .img-book-wrapper-2{
     width: 100%;
     height: 880px;
@@ -216,6 +235,7 @@
 h2 { @include text-prop (24px, 800);
     @include flex-prop (flex, nowrap, center,center );
     font-family: ALK Rex Bold;
+    
 }
 
 p {

@@ -53,6 +53,20 @@ a {
   font-display: swap; }
 
 @font-face {
+  font-family: 'BPG Glaho WEB Caps';
+  src: url("../fonts/bpg-glaho-web-caps-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/bpg-glaho-web-caps-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bpg-glaho-web-caps-webfont.woff2") format("woff2"), url("../fonts/bpg-glaho-web-caps-webfont.woff") format("woff"), url("../fonts/bpg-glaho-web-caps-webfont.ttf") format("truetype"), url("../fonts/bpg-glaho-web-caps-webfont.svg#bpg_glaho_web_capsregular") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
+  font-family: 'BPG Mrgvlovani';
+  src: url("../fonts/bpg-mrgvlovani-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/bpg-mrgvlovani-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bpg-mrgvlovani-webfont.woff2") format("woff2"), url("../fonts/bpg-mrgvlovani-webfont.woff") format("woff"), url("../fonts/bpg-mrgvlovani-webfont.ttf") format("truetype"), url("../fonts/bpg-mrgvlovani-webfont.svg#bpg_mrgvlovaniregular") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
   font-family: 'ALK Rex Bold';
   src: url("../fonts/alk/alk-rex-bold-webfont.eot");
   /* IE9 Compat Modes */
@@ -68,6 +82,20 @@ a {
   font-display: swap; }
 
 @font-face {
+  font-family: 'BPG Glaho WEB Caps';
+  src: url("../fonts/bpg-glaho-web-caps-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/bpg-glaho-web-caps-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bpg-glaho-web-caps-webfont.woff2") format("woff2"), url("../fonts/bpg-glaho-web-caps-webfont.woff") format("woff"), url("../fonts/bpg-glaho-web-caps-webfont.ttf") format("truetype"), url("../fonts/bpg-glaho-web-caps-webfont.svg#bpg_glaho_web_capsregular") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
+  font-family: 'BPG Mrgvlovani';
+  src: url("../fonts/bpg-mrgvlovani-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/bpg-mrgvlovani-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bpg-mrgvlovani-webfont.woff2") format("woff2"), url("../fonts/bpg-mrgvlovani-webfont.woff") format("woff"), url("../fonts/bpg-mrgvlovani-webfont.ttf") format("truetype"), url("../fonts/bpg-mrgvlovani-webfont.svg#bpg_mrgvlovaniregular") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
   font-family: 'ALK Rex Bold';
   src: url("../fonts/alk/alk-rex-bold-webfont.eot");
   /* IE9 Compat Modes */
@@ -81,6 +109,20 @@ a {
   font-weight: 200;
   font-style: normal;
   font-display: swap; }
+
+@font-face {
+  font-family: 'BPG Glaho WEB Caps';
+  src: url("../fonts/bpg-glaho-web-caps-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/bpg-glaho-web-caps-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bpg-glaho-web-caps-webfont.woff2") format("woff2"), url("../fonts/bpg-glaho-web-caps-webfont.woff") format("woff"), url("../fonts/bpg-glaho-web-caps-webfont.ttf") format("truetype"), url("../fonts/bpg-glaho-web-caps-webfont.svg#bpg_glaho_web_capsregular") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
+  font-family: 'BPG Mrgvlovani';
+  src: url("../fonts/bpg-mrgvlovani-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/bpg-mrgvlovani-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bpg-mrgvlovani-webfont.woff2") format("woff2"), url("../fonts/bpg-mrgvlovani-webfont.woff") format("woff"), url("../fonts/bpg-mrgvlovani-webfont.ttf") format("truetype"), url("../fonts/bpg-mrgvlovani-webfont.svg#bpg_mrgvlovaniregular") format("svg");
+  /* Legacy iOS */ }
 
 @media (max-width: 768px) {
   .nav {
@@ -164,7 +206,17 @@ a {
   .img-book-1 {
     margin-top: 10px; }
   .img-book-4 {
-    height: 378px; } }
+    height: 378px; }
+  .text-1 {
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-family: BPG Glaho WEB Caps;
+    margin-top: -30%;
+    margin-left: 50%; } }
 
 .mobile-content-hidden {
   display: none; }
@@ -246,6 +298,26 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(..//../images/book-and-pen.png); }
+
+.text-1 {
+  font-size: 24px;
+  font-weight: 800;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  font-family: BPG Mrgvlovani;
+  margin-top: -30%;
+  margin-left: 50%;
+  color: rgba(0, 0, 0, 0.92); }
+
+.text-1 a {
+  color: black; }
+
+.text-1 a:hover {
+  color: chartreuse;
+  text-shadow: chartreuse;
+  transition: 02s; }
 
 .img-book-wrapper-2 {
   width: 100%;
@@ -403,4 +475,14 @@ p {
   .img-book-1 {
     margin-top: 10px; }
   .img-book-4 {
-    height: 378px; } }
+    height: 378px; }
+  .text-1 {
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-family: BPG Glaho WEB Caps;
+    margin-top: -30%;
+    margin-left: 50%; } }

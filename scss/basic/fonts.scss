@@ -22,3 +22,22 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'BPG Glaho WEB Caps';
+    src: url('../fonts/bpg-glaho-web-caps-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-glaho-web-caps-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-glaho-web-caps-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-glaho-web-caps-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-glaho-web-caps-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-glaho-web-caps-webfont.svg#bpg_glaho_web_capsregular') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'BPG Mrgvlovani';
+    src: url('../fonts/bpg-mrgvlovani-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-mrgvlovani-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-mrgvlovani-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-mrgvlovani-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-mrgvlovani-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-mrgvlovani-webfont.svg#bpg_mrgvlovaniregular') format('svg'); /* Legacy iOS */
+}
